@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Tahoma", Geneva, Verdana, sans-serif;
+  background-color: #232628;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+}
+.title {
+  color: rgb(184, 184, 184);
+  text-align: center;
+  font-size: 50px;
+}
+.content {
+  background-color: #111;
+  padding: 6px;
+  border-radius: 10px;
+}
+.container {
+  max-width: 400px;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.square {
+  width: 16px;
+  height: 16px;
+  margin: 2px;
+
+  background: #1d1d1d;
+  box-shadow: 0 0 1px #000;
+
+  border-radius: 4px;
+
+  transition: 1s ease-in-out;
+}
+.square:hover {
+  transition-duration: 0s;
+}
